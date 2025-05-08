@@ -1,0 +1,47 @@
+@page
+@model DoomlistApp.Pages.AlbumsModel
+<h1>Doomlist - Metal Album Collection</h1>
+
+<form method="get">
+    <select id="genre" name="selectedGenre">
+        <option value="">All Genres</option>
+        @foreach (var genre in Model.Genres)
+        {
+            <option value="@genre.Value">@genre.Text</option>
+        }
+    </select>
+
+    <input type="number" name="selectedYear" placeholder="Year">
+    
+    <input type="text" name="selectedArtist" placeholder="Artist Name">
+    
+    <input type="number" name="selectedRating" placeholder="Min Rating (1-10)">
+
+    <button type="submit">Apply Filter</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cover</th>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var album in Model.Albums)
+        {
+            <tr>
+                <td><img src="@album.AlbumCoverUrl" alt="@album.Name" width="100"></td>
+                <td>@album.Name</td>
+                <td>@album.Artist</td>
+                <td>@album.Genre</td>
+                <td>@album.ReleaseYear</td>
+                <td>@album.Rating</td>
+            </tr>
+        }
+    </tbody>
+</table>

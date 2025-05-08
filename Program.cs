@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite; // This might be needed
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<DoomlistContext>(options =>
+    options.UseSqlite($"Data Source=Database/doomlistdata.db"));
+
+builder.Services.AddScoped<AlbumService>();
+
 
 var app = builder.Build();
 
@@ -18,7 +28,7 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.MapGet("/", () => Results.Redirect("/Albums"));
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
