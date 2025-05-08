@@ -17,6 +17,7 @@ namespace DoomlistApp.Pages
 
         public List<Album> Albums { get; set; } = new();
         public List<SelectListItem> Genres { get; set; } = new(); // Restore Genres list
+        public List<SelectListItem> Artists { get; set; } = new List<SelectListItem>();
 
         public string? SelectedGenre { get; set; }
         public int? SelectedYear { get; set; }

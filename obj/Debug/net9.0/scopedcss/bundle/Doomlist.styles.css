@@ -25,10 +25,10 @@ a[b-8cfq9qxvjg] {
 }
 
 .border-top[b-8cfq9qxvjg] {
-  border-top: 1px solid #e5e5e5;
+  border-top: none;
 }
 .border-bottom[b-8cfq9qxvjg] {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: none;
 }
 
 .box-shadow[b-8cfq9qxvjg] {
@@ -40,10 +40,7 @@ button.accept-policy[b-8cfq9qxvjg] {
   line-height: inherit;
 }
 
-.footer[b-8cfq9qxvjg] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+footer[b-8cfq9qxvjg] {
+  border-top: none !important;
+  box-shadow: none !important;
 }

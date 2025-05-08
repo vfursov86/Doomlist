@@ -106,8 +106,6 @@ D:\Code\Doomlist\obj\Debug\net9.0\compressed\4awv8fbodh-2z0ns9nrw6.gz
 D:\Code\Doomlist\obj\Debug\net9.0\compressed\duywpqkdax-muycvpuwrr.gz
 D:\Code\Doomlist\obj\Debug\net9.0\compressed\0zwx548wzh-87fc7y1x7t.gz
 D:\Code\Doomlist\obj\Debug\net9.0\compressed\py61fd3mdj-mlv21k5csn.gz
-D:\Code\Doomlist\obj\Debug\net9.0\compressed\3aod48td87-y9yom2r8ed.gz
-D:\Code\Doomlist\obj\Debug\net9.0\compressed\ozth4twwwl-y9yom2r8ed.gz
 D:\Code\Doomlist\obj\Debug\net9.0\staticwebassets.build.json
 D:\Code\Doomlist\obj\Debug\net9.0\staticwebassets.development.json
 D:\Code\Doomlist\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -123,4 +121,6 @@ D:\Code\Doomlist\obj\Debug\net9.0\refint\Doomlist.dll
 D:\Code\Doomlist\obj\Debug\net9.0\Doomlist.pdb
 D:\Code\Doomlist\obj\Debug\net9.0\Doomlist.genruntimeconfig.cache
 D:\Code\Doomlist\obj\Debug\net9.0\ref\Doomlist.dll
-D:\Code\Doomlist\obj\Debug\net9.0\compressed\84jz6aovqm-2ts7wc1d24.gz
+D:\Code\Doomlist\obj\Debug\net9.0\compressed\84jz6aovqm-nfamzvhq1c.gz
+D:\Code\Doomlist\obj\Debug\net9.0\compressed\3aod48td87-ariwi1fgpl.gz
+D:\Code\Doomlist\obj\Debug\net9.0\compressed\ozth4twwwl-ariwi1fgpl.gz

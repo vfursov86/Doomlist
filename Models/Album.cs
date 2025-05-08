@@ -7,5 +7,5 @@ public class Album
     public int? ReleaseYear { get; set; }
     public int? Rating { get; set; }
     public string? Metadata { get; set; }
-    public string? AlbumCoverUrl { get; set; }
+    public byte[]? AlbumCover { get; set; }
 }

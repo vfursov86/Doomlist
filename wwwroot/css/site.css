@@ -1,22 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
+header {
+  display: none; /* Hides the top menu */
+}
+
 body {
-  background-color: #181818;
-  color: #E0E0E0;
-  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ddd;
+  font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+  padding: 20px;
+  border-bottom: none; /* Ensures no border near footer */
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #252525;
+h1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  text-transform: none; /* Keeps natural capitalization */
 }
 
-th, td {
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Apply right-angle design to filtering fields */
+select {
+  background-color: #121212;
+  color: #ddd;
+  border: none;
   padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid #444;
+  border-radius: 0; /* Right-angle corners */
+  width: 220px; /* Keeps all dropdowns consistent */
 }
 
-th {
-  background-color: #333;
-  color: #F0F0F0;
+select:focus, input:focus {
+  outline: none; /* Removes default browser outline */
+  box-shadow: 0 0 4px #000000; /* Optional: Custom glow */
+}
+
+button {
+  background-color: #121212; /* Deep blue */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #000000; /* Brighter blue when hovered */
+}
+
+.album-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.album-card {
+  background-color: #121212;
+  padding: 15px;
+  border-radius: 0;
+  box-shadow: none; /* No shadow by default */
+  transition: 0.3s ease-in-out;
+}
+
+.album-card a {
+  display: block;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.album-info {
+  color: #bbb;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.album-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 25px #0c0c0c; /* No glow effect */
+  border-radius: 0;
 }
