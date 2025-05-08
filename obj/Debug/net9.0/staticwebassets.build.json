@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XOJkchPayQGFmnV9zA19Sdg/CGf9OI9U/Owk8Y17I2g=",
+  "Hash": "CNqct0u6O+LxyYuTjmk3cz3dr7voIuiF7c14H90wpI4=",
   "Source": "Doomlist",
   "BasePath": "_content/Doomlist",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "D:\\Code\\Doomlist\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-nfamzvhq1c.gz",
+      "Identity": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-xaczeh9r4j.gz",
       "SourceId": "Doomlist",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Doomlist",
-      "RelativePath": "css/site#[.{fingerprint=nfamzvhq1c}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=xaczeh9r4j}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dmakww0jlm",
-      "Integrity": "Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo=",
+      "Fingerprint": "am8k0tylrc",
+      "Integrity": "olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nfamzvhq1c",
-      "Integrity": "rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY=",
+      "Fingerprint": "xaczeh9r4j",
+      "Integrity": "CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2729,12 +2729,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-nfamzvhq1c.gz",
+      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-xaczeh9r4j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001236093943"
+          "Quality": "0.001170960187"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "808"
+          "Value": "853"
         },
         {
           "Name": "ETag",
-          "Value": "\"Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo=\""
+          "Value": "\"olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY=\""
+          "Value": "W/\"CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY="
+          "Value": "sha256-CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc="
         }
       ]
     },
@@ -2793,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1858"
+          "Value": "2107"
         },
         {
           "Name": "Content-Type",
@@ -2801,11 +2801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY=\""
+          "Value": "\"CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,13 +2815,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY="
+          "Value": "sha256-CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-nfamzvhq1c.gz",
+      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-xaczeh9r4j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2830,7 +2830,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "808"
+          "Value": "853"
         },
         {
           "Name": "Content-Type",
@@ -2838,11 +2838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo=\""
+          "Value": "\"olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,18 +2860,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo="
+          "Value": "sha256-olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg="
         }
       ]
     },
     {
-      "Route": "css/site.nfamzvhq1c.css",
-      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-nfamzvhq1c.gz",
+      "Route": "css/site.xaczeh9r4j.css",
+      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-xaczeh9r4j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001236093943"
+          "Quality": "0.001170960187"
         }
       ],
       "ResponseHeaders": [
@@ -2881,15 +2881,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "808"
+          "Value": "853"
         },
         {
           "Name": "ETag",
-          "Value": "\"Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo=\""
+          "Value": "\"olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2909,13 +2909,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY=\""
+          "Value": "W/\"CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nfamzvhq1c"
+          "Value": "xaczeh9r4j"
         },
         {
           "Name": "label",
@@ -2923,12 +2923,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY="
+          "Value": "sha256-CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc="
         }
       ]
     },
     {
-      "Route": "css/site.nfamzvhq1c.css",
+      "Route": "css/site.xaczeh9r4j.css",
       "AssetFile": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2938,7 +2938,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1858"
+          "Value": "2107"
         },
         {
           "Name": "Content-Type",
@@ -2946,11 +2946,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY=\""
+          "Value": "\"CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nfamzvhq1c"
+          "Value": "xaczeh9r4j"
         },
         {
           "Name": "label",
@@ -2968,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rbKBUAtknofrNPG44DhI9gqDiNJI0c9TdqVr5q/PhwY="
+          "Value": "sha256-CSsdnMJWXWFMtXU4uFlAB+g+XXU7DxflkGGNDyJMVCc="
         }
       ]
     },
     {
-      "Route": "css/site.nfamzvhq1c.css.gz",
-      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-nfamzvhq1c.gz",
+      "Route": "css/site.xaczeh9r4j.css.gz",
+      "AssetFile": "D:\\Code\\Doomlist\\obj\\Debug\\net9.0\\compressed\\84jz6aovqm-xaczeh9r4j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "808"
+          "Value": "853"
         },
         {
           "Name": "Content-Type",
@@ -2991,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo=\""
+          "Value": "\"olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 12:58:25 GMT"
+          "Value": "Thu, 08 May 2025 15:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nfamzvhq1c"
+          "Value": "xaczeh9r4j"
         },
         {
           "Name": "label",
@@ -3021,7 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Oy1N+umANWf53x9Ox+X69Y1TmIq8Z4F3MqrAuHe4UZo="
+          "Value": "sha256-olzpFiY75LUtu+dR6JtjWUqHWcBgg2PgMJU02b0Tmzg="
         }
       ]
     },

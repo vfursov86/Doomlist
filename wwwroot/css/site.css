@@ -25,6 +25,16 @@ h1 {
   gap: 15px;
 }
 
+.filter-container select {
+  background-color: #000; /* Solid black */
+  color: #ddd; /* Light text for readability */
+  border: none; /* Removes borders */
+  padding: 8px;
+  border-radius: 0; /* Ensures right-angle corners */
+  width: 220px;
+  appearance: none; /* Removes default OS styling */
+}
+
 /* Apply right-angle design to filtering fields */
 select {
   background-color: #121212;
@@ -37,7 +47,6 @@ select {
 
 select:focus, input:focus {
   outline: none; /* Removes default browser outline */
-  box-shadow: 0 0 4px #000000; /* Optional: Custom glow */
 }
 
 button {
