@@ -29,8 +29,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.MapGet("/", () => Results.Redirect("/Albums"));
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+app.UseStaticFiles();
+app.MapRazorPages();
 
 app.Run();
