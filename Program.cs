@@ -28,7 +28,7 @@ if (!app.Environment.IsDevelopment())
 app.UseRouting();
 
 app.UseAuthorization();
-app.MapGet("/", () => Results.Redirect("/Albums"));
+
 app.UseStaticFiles();
 app.MapRazorPages();
 
