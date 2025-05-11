@@ -1,0 +1,83 @@
+@page
+@model DoomlistApp.Pages.AlbumsModel
+@{
+    ViewData["Title"] = "Albums";
+}
+
+<h1>+ Doomlist +</h1>
+<h2 class="sub-title">Metal Archives</h2>
+
+<div class="filter-container">
+    <form method="get">
+        <select name="selectedGenre">
+            <option value="">All Genres</option>
+            @foreach (var genre in Model.Genres)
+            {
+                <option value="@genre.Value">@genre.Text</option>
+            }
+        </select>
+
+        <select name="selectedYear">
+            <option value="">Year</option>
+             @foreach (var year in Model.Albums.Select(a => a.ReleaseYear).Distinct().OrderByDescending(y => y))
+            {
+                <option value="@year">@year</option>
+            }
+        </select>
+
+        <select name="selectedArtist">
+            <option value="">Artist</option>
+            @foreach (var artist in Model.Albums.Select(a => a.Artist).Distinct().OrderBy(a => a))
+            {
+                <option value="@artist">@artist</option>
+            }
+        </select>
+
+        <select name="selectedRating">
+            <option value="">Rating</option>
+            @foreach (var rating in Model.Albums.Select(a => a.Rating).Distinct().OrderByDescending(r => r))
+            {
+                <option value="@rating">@rating Stars</option>
+            }
+        </select>
+
+
+        <button type="submit">Apply Filter</button>
+    </form>
+</div>
+
+
+<div class="album-container">
+    @foreach (var album in Model.Albums)
+    {
+        <div class="album-card">
+            <img src="data:image/png;base64,@Convert.ToBase64String(album.AlbumCover)" alt="@album.Name" class="album-cover">
+            <div class="album-info">
+                <h3>@album.Name</h3>
+                <p><strong>Artist:</strong> @album.Artist</p>
+                <p><strong>Genre:</strong> @album.Genre</p>
+                <p><strong>Year:</strong> @album.ReleaseYear</p>
+                <p><strong>Rating:</strong> ⭐ @album.Rating</p>
+            </div>
+            
+            <div class="album-details">
+                <h3>Tracklist</h3>
+                <div class="song-list">
+                    @foreach (var track in Model.Tracks.Where(t => t.AlbumId == album.Id))
+                    {
+                        <p>@track.TrackNumber. @track.Title</p>
+                    }
+                </div>
+
+                <h3>Review</h3>
+                <div class="review-section">
+                    @foreach (var review in Model.Reviews.Where(r => r.AlbumId == album.Id))
+                    {
+                        <p><strong>Posted:</strong> @review.CreatedAt.ToShortDateString()</p>
+                        <p>@review.ReviewText</p>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

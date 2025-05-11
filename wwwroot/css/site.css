@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+header {
+  display: none; /* Hides the top menu */
+}
+
+body {
+  background-color: #121212;
+  color: #ddd;
+  font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+  padding: 20px;
+  border-bottom: none; /* Ensures no border near footer */
+}
+
+h1 {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 5.5rem;
+  text-align: center;
+  margin-bottom: 0.5px;
+}
+
+.sub-title {
+  font-family: 'My Soul', cursive;
+  font-size: 2rem;
+  color: #bbb;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter-container select {
+  background-color: #000; /* Solid black */
+  color: #ddd; /* Light text for readability */
+  border: none; /* Removes borders */
+  padding: 8px;
+  border-radius: 0; /* Ensures right-angle corners */
+  width: 220px;
+  appearance: none; /* Removes default OS styling */
+}
+
+/* Apply right-angle design to filtering fields */
+select {
+  background-color: #121212;
+  color: #ddd;
+  border: none;
+  padding: 10px;
+  border-radius: 0; /* Right-angle corners */
+  width: 220px; /* Keeps all dropdowns consistent */
+}
+
+select:focus, input:focus {
+  outline: none; /* Removes default browser outline */
+}
+
+button {
+  background-color: #000000; /* Deep blue */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.album-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.album-card {
+  position: relative;
+  width: 250px;
+  min-height: 350px;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center; /* Ensures scaling happens from the middle */
+}
+
+.album-card a {
+  display: block;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.album-info h3 {
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 10px; /* Adds slight separation */
+}
+
+.album-info {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #bbb;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 0.6; /* Decreases spacing between lines */
+}
+
+.album-card:hover {
+  width: 400px;
+  min-height: 500px;
+  z-index: 10;
+  transform: scale(1.2); /* Increases size smoothly from center */
+  background-color: rgba(28, 28, 28, 0.95);
+}
+
+.album-details {
+  display: none; /* Hidden by default */
+  margin-top: 15px; /* Add spacing when expanded */
+}
+
+.album-card:hover .album-details {
+  display: block;
+}
+
+.album-details h3 {
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 10px; /* Adds slight separation */
+}
+
+.song-list {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #bbb;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 0.6; /* Decreases spacing between lines */
+}
