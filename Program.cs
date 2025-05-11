@@ -4,6 +4,16 @@ using Microsoft.EntityFrameworkCore.Sqlite; // This might be needed
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Enable Kestrel with HTTPS
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5027); // HTTP
+    options.ListenAnyIP(5028, listenOptions =>
+    {
+        listenOptions.UseHttps();
+    });
+});
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 
