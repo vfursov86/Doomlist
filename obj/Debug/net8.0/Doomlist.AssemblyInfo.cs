@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Doomlist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d19b87ef81d2d10803a45965f009913259f4c70e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d616ae4530176b19e0852954120093cb4587ceed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Doomlist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Doomlist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
