@@ -193,3 +193,7 @@ button {
     border-radius: 0;
     border: none;
 }
+
+.album-detail-container {
+    border-top: none !important;
+}
