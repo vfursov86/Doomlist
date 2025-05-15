@@ -43,43 +43,17 @@
             }
         </select>
 
-
         <button type="submit">Apply Filter</button>
     </form>
 </div>
 
-
 <div class="album-container">
     @foreach (var album in Model.Albums)
     {
-        <div class="album-card">
-            <img src="data:image/png;base64,@Convert.ToBase64String(album.AlbumCover)" alt="@album.Name" class="album-cover">
-            <div class="album-info">
-                <h3>@album.Name</h3>
-                <p><strong>Artist:</strong> @album.Artist</p>
-                <p><strong>Genre:</strong> @album.Genre</p>
-                <p><strong>Year:</strong> @album.ReleaseYear</p>
-                <p><strong>Rating:</strong> ⭐ @album.Rating</p>
-            </div>
-            
-            <div class="album-details">
-                <h3>Tracklist</h3>
-                <div class="song-list">
-                    @foreach (var track in Model.Tracks.Where(t => t.AlbumId == album.Id))
-                    {
-                        <p>@track.TrackNumber. @track.Title</p>
-                    }
-                </div>
-
-                <h3>Review</h3>
-                <div class="review-section">
-                    @foreach (var review in Model.Reviews.Where(r => r.AlbumId == album.Id))
-                    {
-                        <p><strong>Posted:</strong> @review.CreatedAt.ToShortDateString()</p>
-                        <p>@review.ReviewText</p>
-                    }
-                </div>
-            </div>
-        </div>
+        <a asp-page="/Albums/Album" asp-route-id="@album.Id" class="album-card">
+            <img src="data:image/png;base64,@Convert.ToBase64String(album.AlbumCover)" alt="@album.Name">
+            <div class="album-title">@album.Name</div>
+            <div class="album-artist">@album.Artist</div>
+        </a>
     }
 </div>

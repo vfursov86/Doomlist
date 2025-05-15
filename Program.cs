@@ -12,7 +12,6 @@ builder.Services.AddDbContext<DoomlistContext>(options =>
 
 builder.Services.AddScoped<AlbumService>();
 
-
 var app = builder.Build();
 
 app.UseHttpsRedirection();

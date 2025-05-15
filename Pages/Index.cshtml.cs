@@ -16,34 +16,36 @@ namespace DoomlistApp.Pages
         }
 
         public List<Album> Albums { get; set; } = new();
-        public List<Track> Tracks { get; set; } = new List<Track>();
-        public List<Review> Reviews { get; set; } = new List<Review>();
-        public List<SelectListItem> Genres { get; set; } = new(); // Restore Genres list
-        public List<SelectListItem> Artists { get; set; } = new List<SelectListItem>();
+        public Album? SelectedAlbum { get; set; } // Holds specific album details when viewing a single album
+        public List<Track> Tracks { get; set; } = new();
+        public List<Review> Reviews { get; set; } = new();
+        public List<SelectListItem> Genres { get; set; } = new();
+        public List<SelectListItem> Artists { get; set; } = new();
 
         public string? SelectedGenre { get; set; }
         public int? SelectedYear { get; set; }
-        public string? SelectedArtist { get; set; } // New filter for Artist
-        public int? SelectedRating { get; set; } // New filter for Rating
+        public string? SelectedArtist { get; set; }
+        public int? SelectedRating { get; set; }
 
         public void OnGet(int? albumId, string? selectedGenre, int? selectedYear, string? selectedArtist, int? selectedRating)
         {
-            Tracks = _context.Tracks.OrderBy(t => t.TrackNumber).ToList();
-            Reviews = _context.Reviews.OrderByDescending(r => r.CreatedAt).ToList();
+            // Fetch distinct genres & artists for filtering dropdowns
+            Genres = _context.Genres
+                .OrderBy(g => g.GenreName)
+                .Select(g => new SelectListItem { Value = g.GenreName, Text = g.GenreName })
+                .ToList();
 
-            Console.WriteLine($"Total Albums: {Albums.Count}");
-            Console.WriteLine($"Total Tracks: {Tracks.Count}");
-            Console.WriteLine($"Total Reviews: {Reviews.Count}");
+            Artists = _context.Albums
+                .Select(a => a.Artist)
+                .Distinct()
+                .OrderBy(a => a)
+                .Select(a => new SelectListItem { Value = a, Text = a })
+                .ToList();
 
             SelectedGenre = selectedGenre;
             SelectedYear = selectedYear;
             SelectedArtist = selectedArtist;
             SelectedRating = selectedRating;
-
-            Genres = _context.Genres
-                .OrderBy(g => g.GenreName)
-                .Select(g => new SelectListItem { Value = g.GenreName, Text = g.GenreName })
-                .ToList();
 
             var query = _context.Albums.AsQueryable();
 
@@ -54,25 +56,33 @@ namespace DoomlistApp.Pages
                 query = query.Where(a => a.ReleaseYear == SelectedYear.Value);
 
             if (!string.IsNullOrEmpty(SelectedArtist))
-                query = query.Where(a => a.Artist.Contains(SelectedArtist)); // Allow partial matches
+                query = query.Where(a => a.Artist.Contains(SelectedArtist));
 
             if (SelectedRating.HasValue)
-                query = query.Where(a => a.Rating >= SelectedRating.Value); // Filter by minimum rating
+                query = query.Where(a => a.Rating >= SelectedRating.Value);
 
-            if (albumId.HasValue) // Ensures albumId is present
+            if (albumId.HasValue)
             {
-                // Fetch all tracks
-                Tracks = _context.Tracks
-                                 .OrderBy(t => t.TrackNumber)
-                                 .ToList();
+                // Fetch only the selected album instead of loading all albums
+                SelectedAlbum = _context.Albums.FirstOrDefault(a => a.Id == albumId.Value);
 
-                // Fetch all reviews
-                Reviews = _context.Reviews
-                                  .OrderByDescending(r => r.CreatedAt)
-                                  .ToList();
+                if (SelectedAlbum != null)
+                {
+                    Tracks = _context.Tracks
+                        .Where(t => t.AlbumId == albumId.Value)
+                        .OrderBy(t => t.TrackNumber)
+                        .ToList();
+
+                    Reviews = _context.Reviews
+                        .Where(r => r.AlbumId == albumId.Value)
+                        .OrderByDescending(r => r.CreatedAt)
+                        .ToList();
+                }
             }
-
-            Albums = query.ToList();
+            else
+            {
+                Albums = query.ToList();
+            }
         }
     }
 }

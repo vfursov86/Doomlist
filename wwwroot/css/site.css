@@ -6,26 +6,26 @@ header {
 }
 
 body {
-  background-color: #121212;
-  color: #ddd;
-  font-family: 'Oswald', 'Roboto Condensed', sans-serif;
-  padding: 20px;
-  border-bottom: none; /* Ensures no border near footer */
+    background-color: #000;
+    color: #ddd;
+    font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    border-bottom: none;
 }
 
 h1 {
-  font-family: 'MedievalSharp', cursive;
-  font-size: 5.5rem;
-  text-align: center;
-  margin-bottom: 0.5px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 5.5rem;
+    text-align: center;
+    color: #ffffff; /* Blood red accent */
 }
 
 .sub-title {
-  font-family: 'My Soul', cursive;
-  font-size: 2rem;
-  color: #bbb;
-  text-align: center;
-  margin-bottom: 25px;
+    font-family: 'My Soul', cursive;
+    font-size: 2rem;
+    color: #ffffff; /* Subtle gothic fade */
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .filter-container {
@@ -60,36 +60,47 @@ select:focus, input:focus {
 }
 
 button {
-  background-color: #000000; /* Deep blue */
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
+    background-color: #222; /* Dark buttons */
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #555;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .album-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
 }
 
 .album-card {
-  position: relative;
-  width: 250px;
-  min-height: 350px;
-  transition: all 0.3s ease-in-out;
-  transform-origin: center; /* Ensures scaling happens from the middle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000; /* Solid black */
+    padding: 15px;
+    border-radius: 0; /* Slight edge definition */
+    transition: 0.3s ease-in-out;
+    width: 200px;
+    height: 260px;
+    border: none; /* Adds a subtle metallic outline */
 }
 
 .album-card a {
-  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .album-card img {
-  width: 100%;
-  border-radius: 0px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0;
 }
 
 .album-info h3 {
@@ -100,19 +111,39 @@ button {
 }
 
 .album-info {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #bbb;
-  font-size: 15px;
-  margin-top: 10px;
-  line-height: 0.6; /* Decreases spacing between lines */
+    flex-grow: 1;
+    text-align: left; /* Ensures text aligns neatly */
+    max-width: 600px;
 }
 
 .album-card:hover {
-  width: 400px;
-  min-height: 500px;
-  z-index: 10;
-  transform: scale(1.2); /* Increases size smoothly from center */
-  background-color: rgba(28, 28, 28, 0.95);
+    background-color: #111; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight pulse effect */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.album-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0;
+    border: none; /* Adds a gritty album frame */
+}
+
+.album-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+.album-artist {
+    font-size: 14px;
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
 }
 
 .album-details {
@@ -137,4 +168,38 @@ button {
   font-size: 15px;
   margin-top: 10px;
   line-height: 0.6; /* Decreases spacing between lines */
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #222;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0;
+    width: fit-content;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: #111;
+    border-color: none;
+}
+
+.album-detail-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; /* Adds space between cover and text */
+}
+
+.album-cover {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+    border: none;
 }
