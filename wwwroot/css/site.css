@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background-color: #000;
+    background-color: #000000;
     color: #ddd;
     font-family: 'Oswald', 'Roboto Condensed', sans-serif;
     padding: 20px;
@@ -29,6 +29,7 @@ h1 {
 }
 
 .filter-container {
+  background-color: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -36,23 +37,14 @@ h1 {
 }
 
 .filter-container select {
-  background-color: #000; /* Solid black */
+  background-color: #000000; /* Solid black */
   color: #ddd; /* Light text for readability */
   border: none; /* Removes borders */
   padding: 8px;
   border-radius: 0; /* Ensures right-angle corners */
   width: 220px;
   appearance: none; /* Removes default OS styling */
-}
-
-/* Apply right-angle design to filtering fields */
-select {
-  background-color: #121212;
-  color: #ddd;
-  border: none;
-  padding: 10px;
-  border-radius: 0; /* Right-angle corners */
-  width: 220px; /* Keeps all dropdowns consistent */
+  text-align: center;
 }
 
 select:focus, input:focus {
@@ -63,14 +55,13 @@ button {
     background-color: #222; /* Dark buttons */
     color: #fff;
     padding: 10px 15px;
-    border: 1px solid #555;
+    border: none;
     cursor: pointer;
-    text-transform: uppercase;
 }
 
 .album-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 20px;
     padding: 40px;
     justify-items: center;
@@ -131,12 +122,11 @@ button {
 }
 
 .album-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
     color: #ddd;
-    text-transform: uppercase;
 }
 
 .album-artist {
