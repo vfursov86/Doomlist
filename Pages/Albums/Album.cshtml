@@ -1,8 +1,12 @@
 @page "{id:int}"
 @model DoomlistApp.Pages.Albums.AlbumModel
 
+@{
+    ViewData["Title"] = Model.Album.Artist + " - " + Model.Album.Name;
+}
+
 <h1>+ Doomlist +</h1>
-<h2 class="sub-title">Metal Archives</h2>
+<h2 class="sub-title">Doom and stoner archives</h2>
 
 <div class="album-detail-container">
     <img src="data:image/png;base64,@Convert.ToBase64String(Model.Album.AlbumCover)" alt="@Model.Album.Name"
