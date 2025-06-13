@@ -217,21 +217,4 @@ button {
     color: #aaa;
 }
 
-html, body {
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden;
-}
-
-footer {
-    background-color: #000 !important;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
 

@@ -24,8 +24,9 @@ a {
 }
 
 .border-top {
-  border-top: none;
+    border-top: none !important;
 }
+
 .border-bottom {
   border-bottom: none;
 }
