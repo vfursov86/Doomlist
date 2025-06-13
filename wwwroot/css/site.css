@@ -218,6 +218,6 @@ button {
 }
 
 .border-top {
-    border-top: none !important;
+    border-top: none !important; /* Removes thin white line in footer */
 }
 
