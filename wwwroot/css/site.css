@@ -217,4 +217,7 @@ button {
     color: #aaa;
 }
 
+.border-top {
+    border-top: none !important;
+}
 
