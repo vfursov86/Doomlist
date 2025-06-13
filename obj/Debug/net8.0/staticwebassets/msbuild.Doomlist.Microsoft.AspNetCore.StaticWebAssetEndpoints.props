@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.2bjix8y975.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2bjix8y975"},{"Name":"integrity","Value":"sha256-PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0="},{"Name":"label","Value":"_content/Doomlist/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 17:25:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4613"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 17:01:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.qwoks6tlt5.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qwoks6tlt5"},{"Name":"integrity","Value":"sha256-Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g="},{"Name":"label","Value":"_content/Doomlist/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4613"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 17:01:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 17:25:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Doomlist/Doomlist.ariwi1fgpl.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.ariwi1fgpl.bundle.scp.css'))</AssetFile>

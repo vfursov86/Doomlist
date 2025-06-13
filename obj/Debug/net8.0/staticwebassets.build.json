@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m/J+jAGuzGIphBV3hQjvVhJO+gPNfV3Ez3rNIWrB/Y4=",
+  "Hash": "gLV+VXn4wj7iWOXgRbCHgALwlxkukHXuw4Dw89Qhf/Y=",
   "Source": "Doomlist",
   "BasePath": "_content/Doomlist",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qwoks6tlt5",
-      "Integrity": "Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g=",
+      "Fingerprint": "2bjix8y975",
+      "Integrity": "PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1384,6 +1384,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.2bjix8y975.css",
+      "AssetFile": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 17:25:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bjix8y975"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1394,7 +1439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4613"
+          "Value": "5019"
         },
         {
           "Name": "Content-Type",
@@ -1402,11 +1447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g=\""
+          "Value": "\"PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 17:01:18 GMT"
+          "Value": "Fri, 13 Jun 2025 17:25:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,52 +1461,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.qwoks6tlt5.css",
-      "AssetFile": "D:\\Code\\Doomlist\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Jun 2025 17:01:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qwoks6tlt5"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gj/94hMY4MZMEYVsDoReudHQSBK0H/rzkPklI/uwG3g="
+          "Value": "sha256-PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0="
         }
       ]
     },
