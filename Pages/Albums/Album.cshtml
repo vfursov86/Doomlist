@@ -20,12 +20,12 @@
         <p><strong>Rating:</strong> <span class="rating-stars">@Html.Raw(Model.GetStarRating(Model.Album.Rating))</span></p>
 
         <p><strong>Tracklist:</strong></p>
-        <ul class="song-list">
+        <div class="song-list">
             @foreach (var track in Model.Tracks)
             {
-                <li><span class="track-number">@track.TrackNumber.</span> @track.Title</li>
+                <p>@track.TrackNumber. @track.Title</p>
             }
-        </ul>
+        </div>
 
         <p><strong>Reviews:</strong></p>
         <div class="review-section">
