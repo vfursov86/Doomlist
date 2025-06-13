@@ -218,18 +218,20 @@ button {
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden;
 }
 
 footer {
-    background-color: #000; /* Ensure full black */
-    border: none !important; /* Override any default border */
-    width: 100vw; /* Force full viewport width */
+    background-color: #000 !important;
+    width: 100vw;
     height: auto;
-    min-height: 50px; /* Ensure enough space */
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
+
