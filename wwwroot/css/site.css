@@ -221,3 +221,8 @@ button {
     border-top: none !important; /* Removes thin white line in footer */
 }
 
+.footer-info, .dedication {
+    text-align: center; /* Ensures both sections are centered */
+    display: block;
+    margin: 0 auto;
+}

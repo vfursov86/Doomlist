@@ -12,29 +12,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2bjix8y975</Fingerprint>
-      <Integrity>PnMrTV5Y9MIzUl+Hx/nZ5xedoxoBu0fGUBUQm7YBJQ0=</Integrity>
+      <Fingerprint>8g8nyi610j</Fingerprint>
+      <Integrity>eOuTR1acuO25XOd7/Z/Q2zF6Ff19Z55+cA9q5oTAaq4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.ariwi1fgpl.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.l55y2vvrqp.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Doomlist</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Doomlist</BasePath>
-      <RelativePath>Doomlist.ariwi1fgpl.bundle.scp.css</RelativePath>
+      <RelativePath>Doomlist.l55y2vvrqp.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>ariwi1fgpl</Fingerprint>
-      <Integrity>9gzCjrBWs1RGcfxYNgdw0KlvUtX9viAOfKnrA5YAtmk=</Integrity>
+      <Fingerprint>l55y2vvrqp</Fingerprint>
+      <Integrity>mRxHozGg3ahMSIliORFZOJ7e1ESqyQDT1xQV+6epGNs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.ariwi1fgpl.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.l55y2vvrqp.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))">
       <SourceType>Package</SourceType>

@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.2bjix8y975.css">
+    <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.8g8nyi610j.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2bjix8y975"},{"Name":"integrity","Value":"sha256-PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0="},{"Name":"label","Value":"_content/Doomlist/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 17:25:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8g8nyi610j"},{"Name":"integrity","Value":"sha256-eOuTR1acuO25XOd7/Z/Q2zF6Ff19Z55\u002BcA9q5oTAaq4="},{"Name":"label","Value":"_content/Doomlist/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4849"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eOuTR1acuO25XOd7/Z/Q2zF6Ff19Z55\u002BcA9q5oTAaq4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 18:13:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Doomlist/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnMrTV5Y9MIzUl\u002BHx/nZ5xedoxoBu0fGUBUQm7YBJQ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 17:25:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Doomlist/Doomlist.ariwi1fgpl.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.ariwi1fgpl.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ariwi1fgpl"},{"Name":"integrity","Value":"sha256-9gzCjrBWs1RGcfxYNgdw0KlvUtX9viAOfKnrA5YAtmk="},{"Name":"label","Value":"_content/Doomlist/Doomlist.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1064"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229gzCjrBWs1RGcfxYNgdw0KlvUtX9viAOfKnrA5YAtmk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 18:57:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eOuTR1acuO25XOd7/Z/Q2zF6Ff19Z55\u002BcA9q5oTAaq4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4849"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eOuTR1acuO25XOd7/Z/Q2zF6Ff19Z55\u002BcA9q5oTAaq4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 18:13:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Doomlist/Doomlist.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.ariwi1fgpl.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.l55y2vvrqp.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9gzCjrBWs1RGcfxYNgdw0KlvUtX9viAOfKnrA5YAtmk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1064"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229gzCjrBWs1RGcfxYNgdw0KlvUtX9viAOfKnrA5YAtmk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 18:57:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mRxHozGg3ahMSIliORFZOJ7e1ESqyQDT1xQV\u002B6epGNs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mRxHozGg3ahMSIliORFZOJ7e1ESqyQDT1xQV\u002B6epGNs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 18:13:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Doomlist/Doomlist.l55y2vvrqp.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Doomlist.l55y2vvrqp.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l55y2vvrqp"},{"Name":"integrity","Value":"sha256-mRxHozGg3ahMSIliORFZOJ7e1ESqyQDT1xQV\u002B6epGNs="},{"Name":"label","Value":"_content/Doomlist/Doomlist.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mRxHozGg3ahMSIliORFZOJ7e1ESqyQDT1xQV\u002B6epGNs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 18:13:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Doomlist/favicon.6pwtkyufre.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

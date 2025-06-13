@@ -24,8 +24,9 @@ a[b-8cfq9qxvjg] {
 }
 
 .border-top[b-8cfq9qxvjg] {
-  border-top: none;
+    border-top: none !important;
 }
+
 .border-bottom[b-8cfq9qxvjg] {
   border-bottom: none;
 }
