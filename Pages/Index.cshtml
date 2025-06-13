@@ -51,7 +51,8 @@
     @foreach (var album in Model.Albums)
     {
         <a asp-page="/Albums/Album" asp-route-id="@album.Id" class="album-card">
-            <img src="data:image/png;base64,@Convert.ToBase64String(album.AlbumCover)" alt="@album.Name">
+            <img src="data:image/webp;base64,@Convert.ToBase64String(album.AlbumCover)" 
+                 alt="@album.Name" loading="lazy">
             <div class="album-title">@album.Name</div>
             <div class="album-artist">@album.Artist</div>
         </a>

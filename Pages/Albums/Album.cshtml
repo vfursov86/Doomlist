@@ -6,11 +6,11 @@
 }
 
 <h1>+ Doomlist +</h1>
-<h2 class="sub-title">Doom and stoner archives</h2>
+<h2 class="sub-title">Doom and Stoner Archives</h2>
 
 <div class="album-detail-container">
-    <img src="data:image/png;base64,@Convert.ToBase64String(Model.Album.AlbumCover)" alt="@Model.Album.Name"
-        class="album-cover">
+    <img src="data:image/webp;base64,@Convert.ToBase64String(Model.Album.AlbumCover)" 
+         alt="@Model.Album.Name" class="album-cover" loading="lazy">
 
     <div class="album-info">
         <p><strong>Album:</strong> @Model.Album.Name</p>
@@ -20,21 +20,24 @@
         <p><strong>Rating:</strong> <span class="rating-stars">@Html.Raw(Model.GetStarRating(Model.Album.Rating))</span></p>
 
         <p><strong>Tracklist:</strong></p>
-        <div class="song-list">
+        <ul class="song-list">
             @foreach (var track in Model.Tracks)
             {
-                <p>@track.TrackNumber. @track.Title</p>
+                <li><span class="track-number">@track.TrackNumber.</span> @track.Title</li>
             }
-        </div>
+        </ul>
 
-        <p><strong>Review:</strong>
+        <p><strong>Reviews:</strong></p>
         <div class="review-section">
             @foreach (var review in Model.Reviews)
             {
-                <p><strong>Posted:</strong> @review.CreatedAt.ToShortDateString()</p>
-                <p>@review.ReviewText</p>
+                <div class="review-entry">
+                    <p><strong>Posted:</strong> @review.CreatedAt.ToShortDateString()</p>
+                    <p>@review.ReviewText</p>
+                </div>
             }
         </div>
     </div>
 </div>
+
 <a href="/" class="back-button">← Back to Doomlist</a>
